@@ -137,6 +137,15 @@
 					event.stopPropagation();
 					event.preventDefault();
 
+          $.ajax({
+            url: "https://formspree.io/nik.nafarch@gmail.com",
+            method: "POST",
+            data: {
+              message: 'Add me to your list!'
+            },
+            dataType: "json"
+          });
+
 					// Hide message.
 						$message._hide();
 
