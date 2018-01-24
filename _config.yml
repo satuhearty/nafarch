@@ -2,8 +2,8 @@
 title: NAF Architect
 email: info@nafarch.com
 description: Showcasing part of our soul to the world through architecture.
-baseurl: "/nafarch" # the subpath of your site, e.g. /blog
-url: "" #"https://www.nafarch.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.nafarch.com" # the base hostname & protocol for your site
 
 # Social settings
 500px_url:
