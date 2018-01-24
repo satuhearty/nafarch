@@ -140,7 +140,7 @@
 					window.form = $(this);
 
           $.ajax({
-            url: "https://formspree.io/nikyusof@bu.edu",
+            url: "https://formspree.io/nik.nafarch@gmail.com",
             method: "POST",
             data: $(this).serialize(),
             dataType: "json"
