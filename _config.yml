@@ -1,0 +1,21 @@
+# Site settings
+title: NAF Architect
+email: info@nafarch.com
+description: Showcasing part of our soul to the world through architecture.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" #"https://www.nafarch.com" # the base hostname & protocol for your site
+
+# Social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url:
+
+# Build settings
+markdown: kramdown
