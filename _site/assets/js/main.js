@@ -137,13 +137,12 @@
 					event.stopPropagation();
 					event.preventDefault();
 
+					window.form = $(this);
+
           $.ajax({
             url: "https://formspree.io/nik.nafarch@gmail.com",
             method: "POST",
-            data: {
-              subject: 'Subscribe Email',
-              message: 'Add me to your list!'
-            },
+            data: $(this).serialize(),
             dataType: "json"
           });
 
