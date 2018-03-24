@@ -3,19 +3,23 @@ title: NAF Architect
 email: info@nafarch.com
 description: Showcasing part of our soul to the world through architecture.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.nafarch.com" # the base hostname & protocol for your site
+url: "nafarch.com" # the base hostname & protocol for your site
+
+# Logo settings
+logo-image-url: images/nafarch-logo.png
+font-awesome-icon-logo:
 
 # Social settings
-500px_url:
-facebook_url:
-github_url:
-gitlab_url:
-googleplus_url:
-instagram_url:
-linkedin_url:
-pinterest_url:
-slack_url:
-twitter_url:
+github_username:
+twitter_username:
+facebook_username: nafarch
+instagram_username: nafarch
+dribbble_username:
+500px_username:
+phone: +60173232024
 
 # Build settings
 markdown: kramdown
+
+# Layout settings
+home-link-in-menu: yes

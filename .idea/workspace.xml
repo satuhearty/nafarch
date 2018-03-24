@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bea6a245-1dc7-4e1c-a277-a38fdbb8666a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change beforePath="$PROJECT_DIR$/_posts/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/base/_bg.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/base/_page.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/base/_typography.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_button.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_form.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_icon.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_list.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_section.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/ie8.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/ie9.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_footer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_header.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_signup-form.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_functions.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_skel.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/libs/_vars.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/Gemfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/Gemfile.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/ie8.css" afterPath="$PROJECT_DIR$/_site/assets/css/ie8.css" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/ie9.css" afterPath="$PROJECT_DIR$/_site/assets/css/ie9.css" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/main.css" afterPath="$PROJECT_DIR$/_site/assets/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/bg01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/bg02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/bg03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/nafarch-icon.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/js/main.js" afterPath="$PROJECT_DIR$/_site/assets/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ie8.css" afterPath="$PROJECT_DIR$/assets/css/ie8.css" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ie9.css" afterPath="$PROJECT_DIR$/assets/css/ie9.css" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" afterPath="$PROJECT_DIR$/assets/css/main.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/images/nafarch-icon.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/index.md" afterPath="$PROJECT_DIR$/index.md" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="nafarch" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding>
+                <marker date="1521907826000" expanded="true" signature="146:147" ph="" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>contenct</find>
+      <find>contain</find>
+      <find>timeline-conta</find>
+      <find>border</find>
+      <find>accent2</find>
+      <find>bounce-in</find>
+      <find>data-src</find>
+      <find>cd-timeline-img</find>
+      <find>cd-movie</find>
+      <find>accent</find>
+      <find>accent1</find>
+      <find>cd-index</find>
+      <find>fa-star</find>
+      <find>2x</find>
+      <find>5x</find>
+      <find>is-hidden</find>
+      <find>star</find>
+      <find>bg03</find>
+      <find>font</find>
+      <find>900</find>
+      <find>font-weight</find>
+      <find>p</find>
+      <find>0.8</find>
+      <find>3em</find>
+      <find>checkbo</find>
+      <find>display</find>
+      <find>flex</find>
+      <find>checkbox</find>
+      <find>label</find>
+      <find>span</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>data-src=</replace>
+      <replace>pic</replace>
+      <replace>cd-index</replace>
+      <replace>images</replace>
+      <replace>{{ site.baseurl }}/images</replace>
+      <replace>960</replace>
+      <replace>736</replace>
+      <replace>raudhah-city</replace>
+      <replace>growing-house</replace>
+      <replace>affordable-housing</replace>
+      <replace>gated-guarded-landed-housing</replace>
+      <replace>landed-terrace</replace>
+      <replace>rimbayu-show-village-and-clubhouse</replace>
+      <replace>nursery</replace>
+      <replace>surau-rimbayu</replace>
+      <replace>uniten-entrance-renovation</replace>
+      <replace>bungalow</replace>
+      <replace>accent6</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/../nafarch-full/_sass/landing</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2018-01-01-beach-house.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2017-06-01-uniten-entrance-renovation.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2017-03-01-surau-rimbayu.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2017-01-01-nursery.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2012-01-01-rimbayu-show-village-and-clubhouse.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2011-09-01-landed-terrace-housing.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2011-02-01-gated-guarded-landed-housing.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2010-07-01-affordable-housing.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2010-05-01-one-federal-hill.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2010-03-01-alor-star-mall.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2010-01-01-mosque.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2009-09-01-semi-detached-renovation.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2009-08-01-pjx-office-tower.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2014-02-01-tamarind-square.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2014-01-01-integrated-commercial-complex.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_posts/2009-12-01-kl-eco-city.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/libs/_vars.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/components/_timeline.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/experiences.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_layouts/work.html" />
+        <option value="$PROJECT_DIR$/../nafarch-full/home.md" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/../nafarch-full/assets/css/main.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_includes/head_landing.html" />
+        <option value="$PROJECT_DIR$/../nafarch-full/assets/css/landing.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/site/libs/_vars.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/site/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/index.md" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/layout/_signup-form.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/assets/js/landing.js" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/components/_form.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/components/_button.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/base/_typography.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/base/_page.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/base/_bg.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/components/_section.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/components/_list.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/components/_icon.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/libs/_vars.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/libs/_skel.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/ie9.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_sass/landing/ie8.scss" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_includes/header.html" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_layouts/landing.html" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_includes/footer_landing.html" />
+        <option value="$PROJECT_DIR$/../nafarch-full/_config.yml" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1303" />
+    <option name="y" value="23" />
+    <option name="width" value="1257" />
+    <option name="height" value="1351" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nafarch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nafarch" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="nafarch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nafarch-full" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../nafarch-full/images/landing" />
+      <recent name="$PROJECT_DIR$/../nafarch-full/_sass/site" />
+      <recent name="$PROJECT_DIR$/../nafarch-full/images/growing-house" />
+      <recent name="$PROJECT_DIR$/../nafarch-full/assets/documents" />
+      <recent name="$PROJECT_DIR$/../nafarch-full/images/raudhah-city" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../nafarch-full/images" />
+      <recent name="$PROJECT_DIR$/../nafarch-full/assets/js" />
+      <recent name="$PROJECT_DIR$/../nafarch-full/_sass/landing" />
+      <recent name="$PROJECT_DIR$/../nafarch-full" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bea6a245-1dc7-4e1c-a277-a38fdbb8666a" name="Default" comment="" />
+      <created>1520471562731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520471562731</updated>
+      <workItem from="1520471565509" duration="12830000" />
+      <workItem from="1520563036903" duration="93000" />
+      <workItem from="1520828629309" duration="2896000" />
+      <workItem from="1520996359716" duration="11000" />
+      <workItem from="1520996406687" duration="9433000" />
+      <workItem from="1521076554677" duration="9553000" />
+      <workItem from="1521170263744" duration="7214000" />
+      <workItem from="1521178403800" duration="2935000" />
+      <workItem from="1521413044476" duration="11000" />
+      <workItem from="1521413077232" duration="15655000" />
+      <workItem from="1521512968904" duration="8595000" />
+      <workItem from="1521599847736" duration="7385000" />
+      <workItem from="1521775577767" duration="2927000" />
+      <workItem from="1521891611854" duration="4987000" />
+      <workItem from="1521906760890" duration="1067000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85592000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1303" y="23" width="1257" height="1351" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2124105" sideWeight="0.4972635" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25159237" sideWeight="0.5027365" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994527" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_posts/2009-08-01-pjx-office-tower.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_posts/2014-02-01-tamarind-square.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_posts/2014-01-01-integrated-commercial-complex.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_posts/2009-12-01-kl-eco-city.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_data/level.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/site/components/_timeline.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1043">
+          <caret line="115" column="16" lean-forward="false" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/assets/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="3" column="3356" lean-forward="false" selection-start-line="3" selection-start-column="3352" selection-end-line="3" selection-end-column="3356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1202">
+          <caret line="264" column="9" lean-forward="false" selection-start-line="264" selection-start-column="9" selection-end-line="264" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/works.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_layouts/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/experiences.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_includes/head_landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="77" lean-forward="false" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/site/libs/_vars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/assets/css/landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/site/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/home.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/elements.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="449">
+            <caret line="271" column="0" lean-forward="false" selection-start-line="271" selection-start-column="0" selection-end-line="272" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/assets/js/landing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/base/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/base/_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/base/_bg.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/components/_section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/components/_list.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/components/_icon.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/components/_form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/layout/_signup-form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/libs/_vars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/libs/_skel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/libs/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/libs/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/ie9.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_sass/landing/ie8.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_layouts/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#1524#1530#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nafarch-full/_includes/footer_landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <marker date="1521907826000" expanded="true" signature="146:147" ph="" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

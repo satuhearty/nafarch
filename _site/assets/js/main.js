@@ -1,176 +1,269 @@
-(function() {
-	"use strict";
+(function ($) {
 
-	// Methods/polyfills.
+  skel.breakpoints({
+    xlarge: '(max-width: 1680px)',
+    large: '(max-width: 1280px)',
+    medium: '(max-width: 980px)',
+    small: '(max-width: 736px)',
+    xsmall: '(max-width: 480px)'
+  });
 
-		// classList | (c) @remy | github.com/remy/polyfills | rem.mit-license.org
-			!function(){function t(t){this.el=t;for(var n=t.className.replace(/^\s+|\s+$/g,"").split(/\s+/),i=0;i<n.length;i++)e.call(this,n[i])}function n(t,n,i){Object.defineProperty?Object.defineProperty(t,n,{get:i}):t.__defineGetter__(n,i)}if(!("undefined"==typeof window.Element||"classList"in document.documentElement)){var i=Array.prototype,e=i.push,s=i.splice,o=i.join;t.prototype={add:function(t){this.contains(t)||(e.call(this,t),this.el.className=this.toString())},contains:function(t){return-1!=this.el.className.indexOf(t)},item:function(t){return this[t]||null},remove:function(t){if(this.contains(t)){for(var n=0;n<this.length&&this[n]!=t;n++);s.call(this,n,1),this.el.className=this.toString()}},toString:function(){return o.call(this," ")},toggle:function(t){return this.contains(t)?this.remove(t):this.add(t),this.contains(t)}},window.DOMTokenList=t,n(Element.prototype,"classList",function(){return new t(this)})}}();
+  $(function () {
 
-		// canUse
-			window.canUse=function(p){if(!window._canUse)window._canUse=document.createElement("div");var e=window._canUse.style,up=p.charAt(0).toUpperCase()+p.slice(1);return p in e||"Moz"+up in e||"Webkit"+up in e||"O"+up in e||"ms"+up in e};
+    var $window = $(window),
+      $body = $('body');
 
-		// window.addEventListener
-			(function(){if("addEventListener"in window)return;window.addEventListener=function(type,f){window.attachEvent("on"+type,f)}})();
+    new LazyLoad();
 
-	// Vars.
-		var	$body = document.querySelector('body');
+    var $timeline_block = $('.cd-timeline-block');
 
-	// Disable animations/transitions until everything's loaded.
-		$body.classList.add('is-loading');
+    //hide timeline blocks which are outside the viewport
+    $timeline_block.each(function () {
+      if ($(this).offset().top > $(window).scrollTop() + $(window).height() * 0.75) {
+        $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+      }
+    });
 
-		window.addEventListener('load', function() {
-			window.setTimeout(function() {
-				$body.classList.remove('is-loading');
-			}, 100);
-		});
+    //on scolling, show/animate timeline blocks when enter the viewport
+    $(window).on('scroll', function () {
+      $timeline_block.each(function () {
+        if ($(this).offset().top <= $(window).scrollTop() + $(window).height() * 0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden')) {
+          $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+        }
+      });
+    });
 
-	// Slideshow Background.
-		(function() {
+    $('.clients').slick({
+      slidesToShow: skel.vars.mobile ? 1 : 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      prevArrow: null,
+      nextArrow: null
+    });
 
-			// Settings.
-				var settings = {
+    // Disable animations/transitions until the page has loaded.
+    $body.addClass('is-loading');
 
-					// Images (in the format of 'url': 'alignment').
-						images: {
-							'assets/images/bg01.jpg': 'center',
-							'assets/images/bg02.jpg': 'center',
-							'assets/images/bg03.jpg': 'center'
-						},
+    $window.on('load', function () {
+      window.setTimeout(function () {
+        $body.removeClass('is-loading');
+      }, 100);
+    });
 
-					// Delay.
-						delay: 6000
+    // Touch?
+    if (skel.vars.touch)
+      $body.addClass('is-touch');
 
-				};
+    // Forms.
+    var $form = $('form');
 
-			// Vars.
-				var	pos = 0, lastPos = 0,
-					$wrapper, $bgs = [], $bg,
-					k, v;
+    // Auto-resizing textareas.
+    $form.find('textarea').each(function () {
 
-			// Create BG wrapper, BGs.
-				$wrapper = document.createElement('div');
-					$wrapper.id = 'bg';
-					$body.appendChild($wrapper);
+      var $this = $(this),
+        $wrapper = $('<div class="textarea-wrapper"></div>'),
+        $submits = $this.find('input[type="submit"]');
 
-				for (k in settings.images) {
+      $this
+        .wrap($wrapper)
+        .attr('rows', 1)
+        .css('overflow', 'hidden')
+        .css('resize', 'none')
+        .on('keydown', function (event) {
 
-					// Create BG.
-						$bg = document.createElement('div');
-							$bg.style.backgroundImage = 'url("' + k + '")';
-							$bg.style.backgroundPosition = settings.images[k];
-							$wrapper.appendChild($bg);
+          if (event.keyCode == 13
+            && event.ctrlKey) {
 
-					// Add it to array.
-						$bgs.push($bg);
+            event.preventDefault();
+            event.stopPropagation();
 
-				}
+            $(this).blur();
 
-			// Main loop.
-				$bgs[pos].classList.add('visible');
-				$bgs[pos].classList.add('top');
+          }
 
-				// Bail if we only have a single BG or the client doesn't support transitions.
-					if ($bgs.length == 1
-					||	!canUse('transition'))
-						return;
+        })
+        .on('blur focus', function () {
+          $this.val($.trim($this.val()));
+        })
+        .on('input blur focus --init', function () {
 
-				window.setInterval(function() {
+          $wrapper
+            .css('height', $this.height());
 
-					lastPos = pos;
-					pos++;
+          $this
+            .css('height', 'auto')
+            .css('height', $this.prop('scrollHeight') + 'px');
 
-					// Wrap to beginning if necessary.
-						if (pos >= $bgs.length)
-							pos = 0;
+        })
+        .on('keyup', function (event) {
 
-					// Swap top images.
-						$bgs[lastPos].classList.remove('top');
-						$bgs[pos].classList.add('visible');
-						$bgs[pos].classList.add('top');
+          if (event.keyCode == 9)
+            $this
+              .select();
 
-					// Hide last image after a short delay.
-						window.setTimeout(function() {
-							$bgs[lastPos].classList.remove('visible');
-						}, settings.delay / 2);
+        })
+        .triggerHandler('--init');
 
-				}, settings.delay);
+      // Fix.
+      if (skel.vars.browser == 'ie'
+        || skel.vars.mobile)
+        $this
+          .css('max-height', '10em')
+          .css('overflow-y', 'auto');
 
-		})();
+    });
 
-	// Signup Form.
-		(function() {
+    // Fix: Placeholder polyfill.
+    $form.placeholder();
 
-			// Vars.
-				var $form = document.querySelectorAll('#signup-form')[0],
-					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
-					$message;
+    // Prioritize "important" elements on medium.
+    skel.on('+medium -medium', function () {
+      $.prioritize(
+        '.important\\28 medium\\29',
+        skel.breakpoint('medium').active
+      );
+    });
 
-			// Bail if addEventListener isn't supported.
-				if (!('addEventListener' in $form))
-					return;
+    // Menu.
+    var $menu = $('#menu');
 
-			// Message.
-				$message = document.createElement('span');
-					$message.classList.add('message');
-					$form.appendChild($message);
+    $menu.wrapInner('<div class="inner"></div>');
 
-				$message._show = function(type, text) {
+    $menu._locked = false;
 
-					$message.innerHTML = text;
-					$message.classList.add(type);
-					$message.classList.add('visible');
+    $menu._lock = function () {
 
-					window.setTimeout(function() {
-						$message._hide();
-					}, 3000);
+      if ($menu._locked)
+        return false;
 
-				};
+      $menu._locked = true;
 
-				$message._hide = function() {
-					$message.classList.remove('visible');
-				};
+      window.setTimeout(function () {
+        $menu._locked = false;
+      }, 350);
 
-			// Events.
-			// Note: If you're *not* using AJAX, get rid of this event listener.
-				$form.addEventListener('submit', function(event) {
+      return true;
 
-					event.stopPropagation();
-					event.preventDefault();
+    };
 
-					window.form = $(this);
+    $menu._show = function () {
 
-          $.ajax({
-            url: "https://formspree.io/nik.nafarch@gmail.com",
-            method: "POST",
-            data: $(this).serialize(),
-            dataType: "json"
-          });
+      if ($menu._lock())
+        $body.addClass('is-menu-visible');
 
-					// Hide message.
-						$message._hide();
+    };
 
-					// Disable submit.
-						$submit.disabled = true;
+    $menu._hide = function () {
 
-					// Process form.
-					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
-					// but there's enough here to piece together a working AJAX submission call that does.
-						window.setTimeout(function() {
+      if ($menu._lock())
+        $body.removeClass('is-menu-visible');
 
-							// Reset form.
-								$form.reset();
+    };
 
-							// Enable submit.
-								$submit.disabled = false;
+    $menu._toggle = function () {
 
-							// Show message.
-								$message._show('success', 'Thank you!');
-								//$message._show('failure', 'Something went wrong. Please try again.');
+      if ($menu._lock())
+        $body.toggleClass('is-menu-visible');
 
-						}, 750);
+    };
 
-				});
+    $menu
+      .appendTo($body)
+      .on('click', function (event) {
+        event.stopPropagation();
+      })
+      .on('click', 'a', function (event) {
 
-		})();
+        var href = $(this).attr('href');
 
-})();
+        event.preventDefault();
+        event.stopPropagation();
+
+        // Hide.
+        $menu._hide();
+
+        // Redirect.
+        if (href == '#menu')
+          return;
+
+        window.setTimeout(function () {
+          window.location.href = href;
+        }, 350);
+
+      })
+      .append('<a class="close" href="#menu">Close</a>');
+
+    $body
+      .on('click', 'a[href="#menu"]', function (event) {
+
+        event.stopPropagation();
+        event.preventDefault();
+
+        // Toggle.
+        $menu._toggle();
+
+      })
+      .on('click', function (event) {
+
+        // Hide.
+        $menu._hide();
+
+      })
+      .on('keydown', function (event) {
+
+        // Hide on escape.
+        if (event.keyCode == 27)
+          $menu._hide();
+
+      });
+
+    var $form = document.querySelectorAll('#contact-form')[0],
+      $submit = document.querySelectorAll('#contact-form input[type="submit"]')[0],
+      $message;
+
+    if ($form) {
+      var queryParams = window.location.search;
+
+      $message = document.createElement('span');
+      $message.classList.add('message');
+      $form.appendChild($message);
+
+      $message._show = function (type, text) {
+        $message.innerHTML = text;
+        $message.classList.add(type);
+        $message.classList.add('visible');
+      };
+
+      $message._hide = function() {
+        $message.classList.remove('visible');
+      };
+
+      if (queryParams === '?submitted=true') {
+        $submit.disabled = true;
+        $message._show('success', 'Thank you!');
+      }
+    }
+
+    var $timeline_block = $('.cd-timeline-block');
+
+    if ($timeline_block) {
+      //hide timeline blocks which are outside the viewport
+      $timeline_block.each(function(){
+        if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+          $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+        }
+      });
+
+      //on scolling, show/animate timeline blocks when enter the viewport
+      $(window).on('scroll', function(){
+        $timeline_block.each(function(){
+          if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+            $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+          }
+        });
+      });
+    }
+  });
+
+})(jQuery);
