@@ -4,7 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="nafarch-full" />
-    <orderEntry type="module" module-name="nafarch-full" />
   </component>
 </module>
